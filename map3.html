@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ae3f2acb3d0b829ff6828abeed79698 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4ae3f2acb3d0b829ff6828abeed79698" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ae3f2acb3d0b829ff6828abeed79698 = L.map(
+                "map_4ae3f2acb3d0b829ff6828abeed79698",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20bdc1ede10fb1e46e587a4359359419 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var marker_accaa83cebe34a1b8cb8aa21f2db03a3 = L.marker(
+                [19.1197, 72.907],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_2600aded8eae1953847a390389b3ac40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_accaa83cebe34a1b8cb8aa21f2db03a3.setIcon(icon_2600aded8eae1953847a390389b3ac40);
+        
+    
+        var popup_ffa2ed0c6f66ad814c886df1d3142af6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06690422b79cfed10fa11a7195a81289 = $(`<div id="html_06690422b79cfed10fa11a7195a81289" style="width: 100.0%; height: 100.0%;">Lake Clean Up!</div>`)[0];
+                popup_ffa2ed0c6f66ad814c886df1d3142af6.setContent(html_06690422b79cfed10fa11a7195a81289);
+            
+        
+
+        marker_accaa83cebe34a1b8cb8aa21f2db03a3.bindPopup(popup_ffa2ed0c6f66ad814c886df1d3142af6)
+        ;
+
+        
+    
+    
+            var marker_ba368467d08256401319ae1b787fa7c8 = L.marker(
+                [19.2135, 72.8806],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_dcdad8fd7899cd43e01eae0f3ea00541 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba368467d08256401319ae1b787fa7c8.setIcon(icon_dcdad8fd7899cd43e01eae0f3ea00541);
+        
+    
+        var popup_9f5a254654505d835e343b4627c19f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_267dee160a5582850d5a5a2650a10280 = $(`<div id="html_267dee160a5582850d5a5a2650a10280" style="width: 100.0%; height: 100.0%;">Lake Clean Up!</div>`)[0];
+                popup_9f5a254654505d835e343b4627c19f0e.setContent(html_267dee160a5582850d5a5a2650a10280);
+            
+        
+
+        marker_ba368467d08256401319ae1b787fa7c8.bindPopup(popup_9f5a254654505d835e343b4627c19f0e)
+        ;
+
+        
+    
+    
+            var marker_22e14f15516eb089c0177a0efe68eaf0 = L.marker(
+                [19.1482, 72.8335],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_a60c261198aa2928dc98d313d3e79d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22e14f15516eb089c0177a0efe68eaf0.setIcon(icon_a60c261198aa2928dc98d313d3e79d38);
+        
+    
+        var popup_6d80aa800637702c5232d94bef131519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_279805c2f536e15d6ea3886cd0cd7c68 = $(`<div id="html_279805c2f536e15d6ea3886cd0cd7c68" style="width: 100.0%; height: 100.0%;">Water Purification Drive!</div>`)[0];
+                popup_6d80aa800637702c5232d94bef131519.setContent(html_279805c2f536e15d6ea3886cd0cd7c68);
+            
+        
+
+        marker_22e14f15516eb089c0177a0efe68eaf0.bindPopup(popup_6d80aa800637702c5232d94bef131519)
+        ;
+
+        
+    
+    
+            var marker_669e83885aa753bf1c6bbe50588a5652 = L.marker(
+                [19.2386, 72.7859],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_2e7376fd9057d72fb3230ae1cf608053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_669e83885aa753bf1c6bbe50588a5652.setIcon(icon_2e7376fd9057d72fb3230ae1cf608053);
+        
+    
+        var popup_fc6ca307e240c25f0aaa22cf64cd00b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d556d5d71bd12f697c0078ac55a5278c = $(`<div id="html_d556d5d71bd12f697c0078ac55a5278c" style="width: 100.0%; height: 100.0%;">Turtle Spotting</div>`)[0];
+                popup_fc6ca307e240c25f0aaa22cf64cd00b5.setContent(html_d556d5d71bd12f697c0078ac55a5278c);
+            
+        
+
+        marker_669e83885aa753bf1c6bbe50588a5652.bindPopup(popup_fc6ca307e240c25f0aaa22cf64cd00b5)
+        ;
+
+        
+    
+    
+            var marker_8ffca448a60015a5bb2f8e7555e8d916 = L.marker(
+                [19.0389, 72.8375],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_f30e562dea5321cc3ff00d182ac395f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ffca448a60015a5bb2f8e7555e8d916.setIcon(icon_f30e562dea5321cc3ff00d182ac395f8);
+        
+    
+        var popup_51b63146c852b21c624edb1b65a9fea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_979dad31bc28f83ae536cfc20431c9df = $(`<div id="html_979dad31bc28f83ae536cfc20431c9df" style="width: 100.0%; height: 100.0%;">Turtle Spotting</div>`)[0];
+                popup_51b63146c852b21c624edb1b65a9fea6.setContent(html_979dad31bc28f83ae536cfc20431c9df);
+            
+        
+
+        marker_8ffca448a60015a5bb2f8e7555e8d916.bindPopup(popup_51b63146c852b21c624edb1b65a9fea6)
+        ;
+
+        
+    
+    
+            var marker_add33fe4f453a1c62032c2ae9cb8ef19 = L.marker(
+                [19.0095, 72.8164],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_76171b9997ac3359b93961388ac5687f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_add33fe4f453a1c62032c2ae9cb8ef19.setIcon(icon_76171b9997ac3359b93961388ac5687f);
+        
+    
+        var popup_88db4301c4e2a13343f9d76b6b1b1640 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3173bf4369825aa93561180ae4e6c5b0 = $(`<div id="html_3173bf4369825aa93561180ae4e6c5b0" style="width: 100.0%; height: 100.0%;">Sustainable Fish Farms</div>`)[0];
+                popup_88db4301c4e2a13343f9d76b6b1b1640.setContent(html_3173bf4369825aa93561180ae4e6c5b0);
+            
+        
+
+        marker_add33fe4f453a1c62032c2ae9cb8ef19.bindPopup(popup_88db4301c4e2a13343f9d76b6b1b1640)
+        ;
+
+        
+    
+    
+            var marker_5bd4f08ea9f666edfd287f4d8deaf4e5 = L.marker(
+                [19.1197, 72.8464],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_9eacd5129c3645c21f8502b9d1284edf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5bd4f08ea9f666edfd287f4d8deaf4e5.setIcon(icon_9eacd5129c3645c21f8502b9d1284edf);
+        
+    
+        var popup_a9e107c8a7a9681ce34ce5e8a6c599d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72be209a6b3fb25ee3bb5a9a0903bcbc = $(`<div id="html_72be209a6b3fb25ee3bb5a9a0903bcbc" style="width: 100.0%; height: 100.0%;">Community Herb Garden</div>`)[0];
+                popup_a9e107c8a7a9681ce34ce5e8a6c599d4.setContent(html_72be209a6b3fb25ee3bb5a9a0903bcbc);
+            
+        
+
+        marker_5bd4f08ea9f666edfd287f4d8deaf4e5.bindPopup(popup_a9e107c8a7a9681ce34ce5e8a6c599d4)
+        ;
+
+        
+    
+    
+            var marker_ca89f86a7e0e54f09ad804fa5fe682a2 = L.marker(
+                [19.1387, 72.8199],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_dd3cf11db03a6f2057dddd27b3879d27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca89f86a7e0e54f09ad804fa5fe682a2.setIcon(icon_dd3cf11db03a6f2057dddd27b3879d27);
+        
+    
+        var popup_5d11b6664490a6b94064c5f9464050fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b084514a2fbc89de8cc00a93dca36a7 = $(`<div id="html_3b084514a2fbc89de8cc00a93dca36a7" style="width: 100.0%; height: 100.0%;">Versova Community Composting</div>`)[0];
+                popup_5d11b6664490a6b94064c5f9464050fa.setContent(html_3b084514a2fbc89de8cc00a93dca36a7);
+            
+        
+
+        marker_ca89f86a7e0e54f09ad804fa5fe682a2.bindPopup(popup_5d11b6664490a6b94064c5f9464050fa)
+        ;
+
+        
+    
+    
+            var marker_c20f445d79f5d7c92658f2a14c73c5b0 = L.marker(
+                [19.0963, 72.8987],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_a7f6007e4573318587943943cb694687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c20f445d79f5d7c92658f2a14c73c5b0.setIcon(icon_a7f6007e4573318587943943cb694687);
+        
+    
+        var popup_589689f4ac3d0c1f65accdf2ff74ba91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d040fab064ee7d88c1a3f5cb7b712344 = $(`<div id="html_d040fab064ee7d88c1a3f5cb7b712344" style="width: 100.0%; height: 100.0%;">Malabar Community Gardening Project</div>`)[0];
+                popup_589689f4ac3d0c1f65accdf2ff74ba91.setContent(html_d040fab064ee7d88c1a3f5cb7b712344);
+            
+        
+
+        marker_c20f445d79f5d7c92658f2a14c73c5b0.bindPopup(popup_589689f4ac3d0c1f65accdf2ff74ba91)
+        ;
+
+        
+    
+    
+            var marker_6d595b07b37c122abbcbd464628ceed9 = L.marker(
+                [19.0176, 72.8422],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_7368c821c8afa32674b7f722d5230a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d595b07b37c122abbcbd464628ceed9.setIcon(icon_7368c821c8afa32674b7f722d5230a2b);
+        
+    
+        var popup_0f663c8a69ba9784b5038144d6f3d84a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb73e7c1f5103740743f012a1f2c2b45 = $(`<div id="html_eb73e7c1f5103740743f012a1f2c2b45" style="width: 100.0%; height: 100.0%;">Dadar Community Gardening Project</div>`)[0];
+                popup_0f663c8a69ba9784b5038144d6f3d84a.setContent(html_eb73e7c1f5103740743f012a1f2c2b45);
+            
+        
+
+        marker_6d595b07b37c122abbcbd464628ceed9.bindPopup(popup_0f663c8a69ba9784b5038144d6f3d84a)
+        ;
+
+        
+    
+    
+            var marker_652cd0fe7962c1fb1744ba1bf429133a = L.marker(
+                [19.0606, 72.8295],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_d1d1198d7979551bcf247d9b074c8e19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_652cd0fe7962c1fb1744ba1bf429133a.setIcon(icon_d1d1198d7979551bcf247d9b074c8e19);
+        
+    
+        var popup_bf9ffb845c52661afc92ef04ff41d4f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06ad42c4a386c984b10ce67d06f6c07c = $(`<div id="html_06ad42c4a386c984b10ce67d06f6c07c" style="width: 100.0%; height: 100.0%;">Bandra Community Gardening Project</div>`)[0];
+                popup_bf9ffb845c52661afc92ef04ff41d4f8.setContent(html_06ad42c4a386c984b10ce67d06f6c07c);
+            
+        
+
+        marker_652cd0fe7962c1fb1744ba1bf429133a.bindPopup(popup_bf9ffb845c52661afc92ef04ff41d4f8)
+        ;
+
+        
+    
+    
+            var marker_1413c55a5f809a292eb1a7cc418bc405 = L.marker(
+                [19.1155, 72.8822],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_5ba38ee9459b1d953beba7796eb221ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1413c55a5f809a292eb1a7cc418bc405.setIcon(icon_5ba38ee9459b1d953beba7796eb221ba);
+        
+    
+        var popup_dc6dc1edc19e9b737cdf783272815ecc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49a6e397720415e033bb818601c2b6bb = $(`<div id="html_49a6e397720415e033bb818601c2b6bb" style="width: 100.0%; height: 100.0%;">Marol Cow Shelter</div>`)[0];
+                popup_dc6dc1edc19e9b737cdf783272815ecc.setContent(html_49a6e397720415e033bb818601c2b6bb);
+            
+        
+
+        marker_1413c55a5f809a292eb1a7cc418bc405.bindPopup(popup_dc6dc1edc19e9b737cdf783272815ecc)
+        ;
+
+        
+    
+    
+            var marker_d706b73593fec14e560c6af2a29b1880 = L.marker(
+                [19.1042, 72.8753],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_b6a39a25ef20e68c8ee7c0a5a84a1d59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d706b73593fec14e560c6af2a29b1880.setIcon(icon_b6a39a25ef20e68c8ee7c0a5a84a1d59);
+        
+    
+        var popup_1efcbd22c17116705f2c21cbd172975e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c662ccabd6e08dc6756a2bbc293edfe6 = $(`<div id="html_c662ccabd6e08dc6756a2bbc293edfe6" style="width: 100.0%; height: 100.0%;">Municipal Composting</div>`)[0];
+                popup_1efcbd22c17116705f2c21cbd172975e.setContent(html_c662ccabd6e08dc6756a2bbc293edfe6);
+            
+        
+
+        marker_d706b73593fec14e560c6af2a29b1880.bindPopup(popup_1efcbd22c17116705f2c21cbd172975e)
+        ;
+
+        
+    
+    
+            var marker_4ebec62808ec9b022b4cb33ea7ff23ee = L.marker(
+                [19.0896, 72.8656],
+                {}
+            ).addTo(map_4ae3f2acb3d0b829ff6828abeed79698);
+        
+    
+            var icon_f2b9dd3efac01d8af2a365852f6d201d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ebec62808ec9b022b4cb33ea7ff23ee.setIcon(icon_f2b9dd3efac01d8af2a365852f6d201d);
+        
+    
+        var popup_766df47de1e4ae6e6d2d114a55494ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfcb0a6a089285592b70390ef8fddb23 = $(`<div id="html_cfcb0a6a089285592b70390ef8fddb23" style="width: 100.0%; height: 100.0%;">Municipal Gardening Initiative</div>`)[0];
+                popup_766df47de1e4ae6e6d2d114a55494ca6.setContent(html_cfcb0a6a089285592b70390ef8fddb23);
+            
+        
+
+        marker_4ebec62808ec9b022b4cb33ea7ff23ee.bindPopup(popup_766df47de1e4ae6e6d2d114a55494ca6)
+        ;
+
+        
+    
+</script>
+</html>
